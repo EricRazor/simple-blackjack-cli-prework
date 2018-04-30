@@ -1,6 +1,6 @@
 def welcome
   puts "Welcome to the Blackjack Table"
-  return
+  
 end
 
 def deal_card
