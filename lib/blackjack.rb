@@ -1,5 +1,6 @@
 def welcome
   puts "Welcome to the Blackjack Table"
+  return
 end
 
 def deal_card
@@ -45,7 +46,7 @@ def hit?(card_total)
 end
 
 def invalid_command
-  puts "Please enter a valid command
+  puts "Please enter a valid command"
 end
 
 #####################################################
